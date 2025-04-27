@@ -1,0 +1,31 @@
+nav{
+    background-color: darkseagreen;
+    text-align: center;
+    margin: auto;
+}
+.container{
+    display: flex;
+    background-color: darkslategrey;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    flex: 70%;
+
+}
+.grid-container{
+    display: grid;
+    background-color:cadetblue;
+    padding: 10px;
+    column-gap:10px;
+    gap: 50px 100px;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    align-content: center;
+    place-content: center;
+}
+@media screen and (max-width: 700px){  
+}
+    
